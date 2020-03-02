@@ -1,0 +1,52 @@
+.myimg{
+
+    height: 300px;
+    
+}
+
+
+.line{
+    border-top:5px dotted  black;
+    width: 50%;
+    margin: auto;
+    border-bottom: none;
+
+
+}
+
+.material-icons{
+
+    border-radius: 20%;
+
+
+}
+
+
+
+
+@media screen and (min-width:400px) and (max-width:900px){
+
+    .firstdiv{
+
+            display: block !important;
+            
+            text-align: center !important;
+    }
+
+    .div1{
+       
+        width: 50% !important;
+        margin-left: 25%;;
+
+    }
+
+    
+    .div2{
+        
+        width: 100% !important;
+    }
+
+
+
+
+}

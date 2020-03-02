@@ -1,0 +1,86 @@
+.maindiv{
+
+    background: #833ab4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height:100%;
+}
+
+
+.myimage{
+
+    height:150px;
+    width: 150px;
+    border-radius: 100% ;
+    
+    margin-top: 5em;
+    
+}
+
+.bannertext{
+
+    background-color: black;
+    opacity: .8;
+    width: 75%;
+    margin:auto;
+    border-radius: 10px;
+}
+
+.bannertext h1{
+
+    font-size: 60px;
+    font-weight: bold;
+    color:white;
+    text-align: center;
+
+}
+
+.bannertext hr{
+border-top:5px dotted white;
+width: 50%;
+margin:auto;
+border-bottom: none;
+
+}
+
+.bannertext p{
+
+    color: white;
+    font-size: 20px;
+    padding:1em;
+    text-align: center;
+
+}
+@media screen and (min-width:400px) and (max-width:900px){
+ 
+    .myimage{
+
+        width: 150px;
+        height: 150px;
+        margin-top:20%;
+    }
+
+    .bannertext h1{
+
+        font-size: 30px;
+        font-weight: bold;
+       
+    }
+ 
+    
+    
+.bannertext p{
+
+    font-size: 15px;
+    padding:1em;
+}
+
+.bannertext hr{
+    border-top:5px dotted white;
+    
+    }
+
+
+
+
+}
